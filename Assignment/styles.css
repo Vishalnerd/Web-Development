@@ -1,0 +1,452 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+
+body{
+    margin: 0;
+    font-family: "Sora",sans-serif;
+    background: black;
+}
+
+canvas{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.first{
+    
+    display: flex;
+    height:9%;
+    width:100%;
+    
+    justify-content: space-between;
+}
+
+.first-left{
+    display: flex;
+    justify-content: left;
+   
+    height: 9vh;
+    width:50vw;
+    
+    margin-left: 9%;
+    
+}
+
+.first-left img{
+    height: 50px;
+    margin-top: 3%;
+}
+
+.first-right{
+    display: flex;
+    justify-content: right;
+    margin-right: 5%;
+    margin-top: 0.3%;
+}
+
+.first-right button{
+    height: 40px;
+    border-radius: 6%;
+    font-family: "Sora",sans-serif;
+    margin-top: 3%;
+    padding:1px 10px;
+}
+
+.second{
+    display: flex;
+    width:10vw;
+    margin-left: 9%;
+    margin-top:2%;
+    
+}
+
+.gradient{
+    background: -webkit-linear-gradient( #F87516 0%, #5E11FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    font-size: 20px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin-top:8%;
+    color:whitesmoke;
+    gap:110px;
+}
+
+.left-section{
+    margin-left: 9%;
+}
+
+.hero-content h2{
+    font-size: 45px;
+}
+
+
+
+.hero-content-second{
+    background: -webkit-linear-gradient( #F87516 0%, #5E11FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    font-size: 60px;
+}
+
+.hero-content-third{
+    font-weight: 100;
+}
+
+.hero-content{
+   width:50%;
+   margin-right: 20%;
+  
+}
+
+.review{
+    margin-top:5%
+}
+
+.review-heading{
+    display: flex;
+    width:85%;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    margin-left:10%;
+    font-size:13px;
+}
+
+.review-box{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.review-box-first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.review-img{
+    width:120px;
+    height:20px;
+    
+}
+
+.score{
+    font-size: 12px;
+    color:white;
+    margin-left:11px;
+}
+
+.fourth{
+    margin-top:7%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.fourth-left{
+   
+    width:50%;
+    margin-left: 9%;
+    color:white;
+}
+
+.fourth-left h2{
+    font-size: 30px;
+}
+
+.btn-gradient{
+    padding:20px 33px;
+    border-radius: 5%;
+    margin-top:5%;
+    background-image: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+    color:white;
+    font-size:20px
+}
+
+.fourth-right{
+    margin-right:7%
+}
+
+.fifth{
+    display: flex;
+    flex-direction: column;
+  margin-top:5%;
+  width:100%  
+}
+   
+
+.fifth-heading{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 27px;
+    width:60%;
+    margin-left:25%
+}
+
+.fifth-heading h2{
+    font-weight: 500;
+    text-align: center;
+}
+
+.fifth-left{
+    border: 1px solid rgb(65, 64, 64);    
+background: rgb(2, 2, 40);
+width:45%;
+margin: 3% 5%;
+border-radius:5%;
+display: flex;
+flex-direction: column;
+}
+
+.fifth-left-heading{
+    color: white;
+   margin-left:5%;
+   font-size:20px;
+   display: flex;
+    
+}
+
+.fifth-left-content{
+    color:white;
+    margin-left:5%;
+    display: flex;
+}
+
+.fifth-left-heading h3{
+    font-weight: 500;
+}
+
+.fifth-left-content p{
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.fifth-left-img{
+    margin-left:5%;
+}
+
+.image{
+    max-width: 100%;
+    height: auto;
+}
+
+.fifth-right{
+    border: 1px solid rgb(65, 64, 64);
+background: rgb(2, 2, 40);
+width:45%;
+margin: 3% 5%;
+border-radius:5%;
+position: relative;
+left: 650px;
+top: -470px;
+display: flex;
+flex-direction: column;
+}
+
+.sixth{
+    background: rgb(2, 2, 40);
+    margin-top:-400px;
+    width:70%;
+    margin-left:13%;
+    padding:10px;
+    padding-bottom: 30px;
+    border-radius: 4%;
+    border: 1px solid rgb(65, 64, 64);
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.sixth-heading{
+    
+    color:white;
+    text-align: center;
+    font-size: 23px;
+    
+}
+.sixth h3{
+    font-weight: 400;
+}
+
+.sixth-content{
+    
+    
+    color:white;
+    text-align: center;
+    
+    font-weight:100;
+}
+
+.browsers{
+    margin-top:5%;
+    display: flex;
+    justify-content: center;
+}
+
+.browser-img{
+    max-width: 100%;
+    height: auto;
+}
+
+.seventh{
+    display: flex;
+    flex-direction: column;
+    
+    margin-top:10%;
+    justify-content: center;
+    
+}
+
+.seventh-heading{
+    width:80%;
+   
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-left:9%;
+    text-align: center;
+    color:white;
+    
+}
+.seventh h3{
+    font-weight: 500;
+}
+.seventh-content{
+    width:80%;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+   font-weight: 100;
+   color:white;
+   text-align: center;
+   font-size: 15px;
+}
+
+.features{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:3% 7%;
+    gap:12px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    background: rgb(2, 2, 40);
+    padding-bottom: 10px;
+    border-radius: 5%;
+}
+
+.box img{
+    width:180px
+}
+
+.box-heading{
+    margin-left:10%;
+color:white;
+font-size:20px;
+
+}
+
+.box-heading h3{
+    font-weight:500;
+}
+
+.box-content{
+    display: flex;
+    margin-top:-6%;
+    margin-left:10%;
+    width:50vh;
+    color:white;
+    font-weight:100;
+    font-size:15px
+}
+
+footer{
+    background-image: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+    display: flex;
+    color:white;
+    font-size:12px;
+    font-weight:100;
+    justify-content: space-around;
+    padding:10px;
+}
+
+.footer-left{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width:50%
+    
+}
+
+.footer-right{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    gap:30px;
+    width:50%;
+    
+}
+
+@media screen and (max-width:1216px){
+
+.review-box{
+    flex-direction: column;
+}    
+
+.fourth{
+    flex-direction: column;
+}
+
+.fifth{
+    flex-direction: column;
+}
+.fifth-left{
+    width:90%;
+}
+.fifth-right{
+    display: flex;
+    position: inherit;
+    width:90%;
+   
+}    
+.sixth{
+    margin-top:10%;
+    flex-direction: column;
+    
+}
+.features{
+  display: flex;
+  flex-direction: column;
+}
+.box-heading{
+  margin-top: -90px;
+  margin-left:20%
+}
+.box img{
+    width:80px;
+}
+
+.box-content{
+    margin-top:1px;
+    margin-left:10%
+}
+nav{
+    height:5%
+}
+}
